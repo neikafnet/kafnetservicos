@@ -4,3 +4,5 @@ api_version: 1
 handlers:
 - url: /.*
   script: index.php
+- url: /cnpj
+  script: api\cnpj\index.php
